@@ -1,0 +1,12 @@
+{
+	"uuid": "151E522E-0D23-4A60-B3CB-3D966BD38322",
+	"category": "MaTeX",
+	"templates": [
+		{
+			"name": "MaTeX",
+			"fileExtension": "html",
+			"snippet": "<!DOCTYPE HTML>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<script src=\"loader.js\"></script>\n\t</head>\n\t<body>\n\t\t<!-- INSERT YOUR TEXT HERE -->\n\t</body>\n</html>"
+		}
+	]
+}
+
