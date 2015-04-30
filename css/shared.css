@@ -1,0 +1,715 @@
+/* line 7, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "myriad-pro", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+  color: #333333; }
+
+/* line 18, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+figure {
+  padding: 0;
+  margin: 0; }
+
+/* line 23, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: 400; }
+
+/* line 29, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+h2 {
+  font-size: 52px;
+  font-weight: 200;
+  margin: 0; }
+
+/* line 35, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+h4 {
+  font-size: 14px;
+  margin: 0px; }
+
+/* line 40, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+img {
+  max-width: 100%; }
+
+/* line 47, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+a, a:hover, a:focus {
+  text-decoration: none;
+  font-size: 18px;
+  color: #08c;
+  font-weight: 400;
+  line-height: 1.7; }
+
+/* line 55, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-top: 40px;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  text-align: center; }
+
+/* line 67, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 75, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+video {
+  display: block;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 84, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section {
+  padding: 100px 0px; }
+
+/* line 88, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px; }
+
+/* line 94, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-hero {
+  text-align: center;
+  padding-bottom: 40px; }
+
+/* line 99, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-hero h2 {
+  font-size: 64px; }
+
+/* line 109, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-content h2 {
+  text-align: center; }
+
+/* line 114, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-content h3 {
+  font-weight: 400; }
+
+/* line 119, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.intro {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.4444;
+  font-weight: 400;
+  margin-bottom: 64px; }
+
+/* line 128, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-content h2 + .intro {
+  margin-top: 11px; }
+
+/* line 133, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table {
+  display: table; }
+
+/* line 138, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table .cell {
+  display: table-cell; }
+
+/* line 143, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table .column5 {
+  width: 50%;
+  padding: 0px 15px; }
+
+/* line 149, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table .vertical-align-top {
+  vertical-align: top; }
+
+/* line 154, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table .column4 {
+  width: 40%; }
+
+/* line 159, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table .column3 {
+  width: 30%; }
+
+/* line 164, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table .column7 {
+  width: 70%; }
+
+/* line 169, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section .table .vertical-middle {
+  vertical-align: middle; }
+
+/* line 174, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-hero .intro {
+  font-size: 24px; }
+
+/* line 180, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+#global-nav-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  border-bottom: 1px solid rgba(219, 221, 224, 0.8); }
+
+/* line 189, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-title {
+  float: left; }
+
+/* line 193, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-title a {
+  font-size: 32px;
+  line-height: 1;
+  color: #ef7c64;
+  margin: 0px;
+  padding: 0px; }
+
+/* line 201, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-links {
+  float: right;
+  margin: 25px 0px 0px; }
+
+/* line 207, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-links ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 212, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-links li {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+/* line 218, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-links li + li {
+  margin-left: 20px; }
+
+/* line 222, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-links a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #333333; }
+
+/* line 229, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-links-icon {
+  display: none; }
+
+/* line 234, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-links-icon a {
+  color: #333333; }
+
+/******************/
+/***** $FOOTER ****/
+/******************/
+/** footer **/
+/* line 245, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer {
+  display: table;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+  font-size: 16px; }
+
+/* line 254, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer p {
+  font-size: 12px; }
+
+/* line 259, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer .elementFooter {
+  display: table-row;
+  vertical-align: middle; }
+
+/* line 264, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer .legal {
+  color: gainsboro; }
+
+/* line 269, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer .elementFooter h5 {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* line 275, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer .elementFooter ul {
+  margin: 0px;
+  padding: 0px; }
+
+/* line 279, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer .elementFooter li {
+  list-style-type: none;
+  display: inline-block; }
+
+/* line 283, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer .elementFooter li + li {
+  padding-left: 5px; }
+
+/* line 287, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer .elementFooter li + li:before {
+  content: "-\00a0\00a0"; }
+
+/* line 293, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+footer a, footer a:hover {
+  font-size: 16px;
+  color: #08c; }
+
+/* line 299, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar {
+  text-align: center;
+  word-spacing: -2px;
+  list-style-type: none;
+  margin: 20px 0px 50px 0px; }
+
+/* line 305, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar ul {
+  padding: 0px;
+  margin: 0px; }
+
+/* line 309, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar li {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+/* line 316, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar a {
+  display: inline-block;
+  width: 100%;
+  color: #333333;
+  text-align: center;
+  border: 1px solid #cfcfcf;
+  padding: 6px 0 7px 0;
+  line-height: 1.7em;
+  word-spacing: normal; }
+
+/* line 326, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar a:hover {
+  text-decoration: none;
+  color: #ef7c64; }
+
+/* line 330, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar li:first-child a {
+  border-radius: 6px 0 0 6px; }
+
+/* line 333, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar li:last-child a {
+  border-radius: 0 6px 6px 0; }
+
+/* line 336, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar .selected {
+  background-color: #ef7c64;
+  border-color: #ef7c64;
+  color: #fff; }
+
+/* line 341, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.tabbar .selected:hover {
+  color: white; }
+
+/* line 347, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-content .gallery {
+  width: 100%;
+  position: relative;
+  display: block; }
+
+/* line 354, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery figure {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+/* line 366, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-names {
+  text-align: center; }
+
+/* line 371, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-names ul, .gallery-bullets ul {
+  padding-left: 0px;
+  list-style-type: none; }
+
+/* line 376, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-names li {
+  display: inline-block; }
+
+/* line 381, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-names li + li:before {
+  content: "-";
+  color: darkgrey; }
+
+/* line 387, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-names a {
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #333333; }
+
+/* line 394, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-names a.selected {
+  font-weight: bold; }
+
+/* line 399, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-bullets ul {
+  text-align: center; }
+
+/* line 404, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-bullets a {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  outline: none;
+  background-color: #cfcfcf;
+  border-color: #cfcfcf;
+  border-width: 1px;
+  border-style: solid; }
+
+/* line 419, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-bullets li {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 10px; }
+
+/* line 428, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-bullets li:first-child {
+  margin-left: 0px; }
+
+/* line 433, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-bullets li:last-child {
+  margin-right: 0px; }
+
+/* line 438, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gallery-bullets .selected {
+  background-color: #ef7c64;
+  border-color: #ef7c64; }
+
+/* line 446, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.grid-container {
+  margin-top: 20px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; }
+
+/* line 457, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.grid-child {
+  flex-grow: 0;
+  -webkit-flex-grow: 0; }
+
+/* line 463, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.grid-column-4 {
+  width: 25%; }
+
+/* line 468, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.grid-column-2 {
+  width: 50%; }
+
+/* line 473, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.grid-column-3 {
+  width: 33%; }
+
+/***********************/
+/*** $breadcrumbs *****/
+/**********************/
+/* line 482, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.breadcrumbs {
+  padding-top: 20px; }
+
+/* line 488, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.breadcrumbs a {
+  color: #08c; }
+
+/* line 491, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.breadcrumbs ul {
+  padding: 0px;
+  margin: 0px; }
+
+/* line 495, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.breadcrumbs li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: 300; }
+
+/* line 500, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.breadcrumbs li + li:before {
+  content: " - "; }
+
+/*********************/
+/***** $DOCUMENTATION ***/
+/***********************/
+/* line 509, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation {
+  font-size: 18px;
+  color: #475564; }
+
+/* line 517, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation ul {
+  line-height: 1.7; }
+
+/* line 522, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation section {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+/* line 527, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation header h1 {
+  border: 0;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 10px 0 10px 0;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
+
+/* line 536, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation h2 {
+  font-weight: 200;
+  border-bottom: 1px solid #ccc;
+  font-size: 30px;
+  margin-top: 20px;
+  padding-bottom: 0;
+  text-align: left; }
+
+/* line 544, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation h3 {
+  font-weight: 300;
+  font-size: 22px;
+  border-bottom: 1px dashed #ddd; }
+
+/* line 551, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation h4, .documentation h5 {
+  font-weight: 400;
+  padding-left: 10px;
+  font-size: 16px; }
+
+/* line 556, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.documentation h4 {
+  font-size: 18px;
+  padding-left: 10px;
+  border-left: 5px rgba(239, 124, 100, 0.5) solid; }
+
+/* line 568, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+code[class*="language-"], pre[class*="language-"] {
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */ }
+
+/* line 583, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.links {
+  list-style-type: none;
+  padding: 0px; }
+
+/* line 589, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-background {
+  background-color: #fafafa; }
+
+/* line 594, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.icon {
+  background-repeat: no-repeat;
+  padding-left: 28px !important;
+  background-size: 22px 22px !important;
+  background-position: 0px 1px; }
+
+/* line 603, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.icon-video {
+  background-image: url("play.svg"); }
+
+/* line 608, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.icon-download {
+  background-image: url("download.svg"); }
+
+/* line 613, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.icon-document {
+  background-image: url("document.svg"); }
+
+/* line 618, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.svg-link-style {
+  fill: #08c; }
+
+/* line 623, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.global-nav-margin-top {
+  margin-top: 74px; }
+
+/* line 627, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.no-padding-bottom {
+  padding-bottom: 0px; }
+
+/* line 632, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.no-margin-bottom {
+  margin-bottom: 0px; }
+
+/* line 637, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.no-padding-top {
+  padding-top: 0px; }
+
+/* line 642, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.bold {
+  font-weight: 400; }
+
+/* line 647, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.cover-dark, .cover-dark a, .cover-dark a:hover, .cover-dark a:focus {
+  color: white; }
+
+/* line 652, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.cover-light {
+  color: black; }
+
+/* line 657, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.caption {
+  line-height: 20px;
+  font-size: 14px;
+  padding: 0px 150px; }
+
+/* line 664, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.caption a {
+  font-size: 14px; }
+
+/* line 669, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+h4 + .caption {
+  margin-top: 5px; }
+
+/* line 674, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.align-left, .section-content h2.align-left {
+  text-align: left; }
+
+/* line 679, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.align-center {
+  text-align: center; }
+
+/* line 684, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.gradient-up {
+  background: linear-gradient(white 50%, #f7f7f7); }
+
+/* line 688, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+.section-border-bottom {
+  border-bottom: 1px solid #ddd; }
+
+@media only screen and (max-width: 1023px) {
+  /* line 698, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  h2 {
+    font-size: 42px; }
+  /* line 702, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  video {
+    width: 698px; }
+  /* line 707, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  a, a:hover, a:focus {
+    font-weight: 300; }
+  /* line 711, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-content {
+    width: 698px; }
+  /* line 715, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-content h3 {
+    font-weight: 300; }
+  /* line 720, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .intro {
+    font-weight: 300; }
+  /* line 725, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-hero h2 {
+    font-size: 52px; }
+  /* line 730, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  footer {
+    width: 698px; } }
+
+@media only screen and (max-width: 735px) {
+  /* line 739, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  video {
+    width: 90%; }
+  /* line 744, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  #global-nav-wrapper .section-content {
+    text-align: left; }
+  /* line 749, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .global-nav-links-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 22px;
+    padding-right: 20px; }
+  /* line 759, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .global-nav-title {
+    float: none; }
+  /* line 764, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .global-nav-links {
+    float: none;
+    display: none;
+    padding-bottom: 20px; }
+  /* line 771, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  h2 {
+    font-size: 28px; }
+  /* line 776, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section {
+    padding: 44px 0px; }
+  /* line 780, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-content {
+    width: 90%; }
+  /* line 784, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-content h2 {
+    text-align: left; }
+  /* line 789, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-hero h2 {
+    font-size: 44px;
+    text-align: center; }
+  /* line 795, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-hero {
+    padding-top: 130px; }
+  /* line 800, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .intro {
+    text-align: left; }
+  /* line 805, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section .table .cell {
+    display: table-row; }
+  /* line 810, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section .table {
+    width: 90%; }
+  /* line 815, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section .table .row {
+    width: 100%; }
+  /* line 820, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section .table .column5 {
+    width: 100%; }
+  /* line 825, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section .table .column4 {
+    width: 100%; }
+  /* line 830, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section .table .column3 {
+    width: 100%; }
+  /* line 835, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section .table .column7 {
+    width: 100%; }
+  /* line 840, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .tabbar {
+    display: none; }
+  /* line 845, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  footer {
+    width: 90%; }
+  /* line 850, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .mobile-align-left {
+    text-align: left; }
+  /* line 855, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .mobile-align-center {
+    text-align: center; } }
+
+@media only screen and (max-width: 539px) {
+  /* line 864, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .section-hero h2 {
+    font-size: 28px;
+    text-align: center; }
+  /* line 870, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
+  .caption {
+    padding: 0px 0px; } }
+
+/*# sourceMappingURL=shared.css.map */

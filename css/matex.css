@@ -1,0 +1,55 @@
+/* line 3, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+.section-hero h2, h2 {
+  font-size: 36px;
+  font-weight: normal; }
+
+/* line 9, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+.section-hero .intro {
+  font-size: 18px; }
+
+/* line 14, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+.matex-hero {
+  background-repeat: no-repeat;
+  background-size: 658px 466px;
+  background-position: center center;
+  height: 466px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/matex-hero.jpg"); }
+
+/* line 25, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+.matex-app, .mathx-app {
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: top center; }
+
+/* line 32, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+.matex-app {
+  background-image: url("../images/matex-icon.png"); }
+
+/* line 37, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+.mathx-app {
+  background-image: url("../images/mathx-icon.png"); }
+
+/* line 42, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+.matex-app figcaption, .mathx-app figcaption {
+  padding-top: 120px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  /* line 49, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+  matex-hero {
+    background-image: url("../images/matex-hero@2x.jpg"); }
+  /* line 53, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+  .matex-app {
+    background-image: url("../images/matex-icon@2x.png"); }
+  /* line 58, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+  .mathx-app {
+    background-image: url("../images/mathx-icon@2x.png"); } }
+
+@media only screen and (max-width: 735px) {
+  /* line 65, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/matex.scss */
+  .matex-hero {
+    background-size: 290px 206px;
+    height: 206px; } }
+
+/*# sourceMappingURL=matex.css.map */
