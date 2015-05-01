@@ -521,8 +521,7 @@ code[class*="language-"], pre[class*="language-"] {
 .icon {
   background-repeat: no-repeat;
   padding-left: 28px !important;
-  background-size: 22px 22px !important;
-  background-position: 0px 1px; }
+  background-size: 22px 22px !important; }
 
 /* line 603, /Users/bunuelcubosoto/WorkArea/Private/matex-spec/css/shared.scss */
 .icon-video {
