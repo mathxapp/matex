@@ -1,6 +1,6 @@
 #MaTeX
 
-MaTeX is a new formatting syntax and software tool that allows you to convert HTML file to clear and easy-to-read document. MaTeX offers modules to make it easy to display mathematical notation, using LaTeX, and highlight important information - like rules, theorems, and definitions.
+MaTeX is a new formatting syntax and software tool that allows you to convert HTML file to clear and easy-to-read document. MaTeX offers modules to make it easy to display mathematical notation and highlight important information - such as rules, theorems, or definitions.
 
 MaTeX is used in HTML file, so you can begin using it immediately in most popular browsers and some iOS applications.
 
@@ -14,7 +14,7 @@ Read the [guide](https://github.com/mathxapp/matex/wiki/Getting-Started) or [oth
 Communication
 ---
 
-* if you need help, [contact me]().
+* if you need help, [contact me](https://github.com/mathxapp/matex/issues).
 * If you have a feature request, [open an issue](https://github.com/mathxapp/matex/issues).
 * If you found a bug, [open an issue](https://github.com/mathxapp/matex/issues).
 
